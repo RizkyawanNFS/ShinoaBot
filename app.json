@@ -1,5 +1,5 @@
 {
-  "name": "Telegram One 4u Bot",
+  "name": "Telegram ShinoaBot",
   "description": "[ShinoaBot] A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.",
   "logo": "https://telegra.ph/file/ba033bb7582b700f751c4.jpg",
   "keywords": [
