@@ -1,4 +1,4 @@
-![logo](https://telegra.ph/file/6935648afa7edc00f1611.jpg)
+![logo](https://telegra.ph/file/ba033bb7582b700f751c4.jpg)
 
 Deploy Now
 
