@@ -39,7 +39,7 @@ pylast
 pySmartDL
 python-barcode
 python-dotenv
-youtube-dl
+youtube-dl>=2020.07.28
 pytz
 qrcode
 redis>=3.3.10
