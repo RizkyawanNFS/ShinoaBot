@@ -1,7 +1,7 @@
 {
   "name": "Telegram One 4u Bot",
-  "description": "[One4uBot] A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.",
-  "logo": "https://i.ibb.co/CzXcJ0S/photo-2020-01-28-23-32-03.jpg",
+  "description": "[ShinoaBot] A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.",
+  "logo": "https://telegra.ph/file/ba033bb7582b700f751c4.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/MoveAngel/One4uBot",
+  "repository": "https://github.com/RizkyawanNFS/ShinoaBot",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
-  "success_url": "https://t.me/userbotindo",
+  "success_url": "https://t.me/rizkynfs",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -170,7 +170,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "[PM = Report Spam] I ❤ ️One4uBot",
+      "value": "[PM = Report Spam] I ❤ ️ShinoaBot",
       "required": false
     },
     "ALIVE_NAME": {
@@ -195,7 +195,7 @@
     },
     "WEATHER_DEFLANG": {
       "description": "Set the default language for the userbot's weather module.",
-      "value": "en",
+      "value": "id",
       "required": false
     },
     "LOGSPAMMER": {
