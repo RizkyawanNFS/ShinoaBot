@@ -203,7 +203,7 @@ async def amireallyalive(alive):
               f"┣[ 👁‍🗨 `Username : @shinoanfs `\n"
               f"┣[ 🐍 `Python   : {python_version()} `\n"
               f"┣[ ⚙️ `Telethon : {version.__version__} `\n"
-              "`----------------------------------`\n"
+              "`--------------------------------`\n"
               f"┣[ 💻 `Running  :  {repo.active_branch.name} `\n"
               f"┣[ 🗃 `Modules  : {len(modules)} `\n"
               f"┗━━━━━━━━━━━━━━━━━━━━━━━━━\n")
