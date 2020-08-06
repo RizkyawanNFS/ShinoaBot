@@ -198,14 +198,14 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     output = ("`Bot Siap Menjalankan Tugas`\n"
-              "`⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊶⊷⊶⊶⊶⊶⊶⊶⊶⊶⊶⊶`\n"
-              f"•  👤 `Name       : {DEFAULTUSER} `\n"
-              f"•  ⚙️ `Telethon   : {version.__version__} `\n"
-              f"•  🐍 `Python     : {python_version()} `\n"
-              "`----------------------------------`\n"
-              f"•  💻 `Running on : {repo.active_branch.name} `\n"
-              f"•  🗃 `Loaded     : {len(modules)} `\n"
-              "`⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊶⊷⊶⊶⊶⊶⊶⊶⊶⊶⊶⊶`")
+              f"┏━━━━━━━━━━━━━━━━━━━━━━━━\n"
+              f"┣[ 🧭 `Bot uptime : {uptime}\n `"
+              f"┣[ 👤 `User       : {DEFAULTUSER}\n `"
+              f"┣[ 🐍 `Python     : {python_version()} `\n"
+              f"┣[ ⚙️ `Telethon   : {version.__version__} `\n"
+              f"┣[ 👁‍🗨 `Username   : @{user.username}\n"
+              f"┣[ 🎮 `Running on : {UPSTREAM_REPO_BRANCH} `\n"
+              f"┗━━━━━━━━━━━━━━━━━━━━━━━━\n")
     if ALIVE_LOGO:
         logo = ALIVE_LOGO
         await bot.send_file(alive.chat_id, logo, caption=output)
