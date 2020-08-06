@@ -205,7 +205,7 @@ async def amireallyalive(alive):
               f"┣[ 🐍 `Python   : {python_version()} `\n"
               f"┣[ ⚙️ `Telethon : {version.__version__} `\n"
               f"┣━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-              f"┣[ 💻 `Running  :  {repo.active_branch.name} `\n"
+              f"┣[ 💻 `Running  : {repo.active_branch.name} `\n"
               f"┣[ 🗃 `Modules  : {len(modules)} `\n"
               f"┗━━━━━━━━━━━━━━━━━━━━━━━━━\n")
     if ALIVE_LOGO:
