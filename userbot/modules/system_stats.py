@@ -199,10 +199,10 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     output = ("`Bot Siap Menjalankan Tugas`\n"
               f"┏━━━━━━━━━━━━━━━━━━━━━━━━\n"
-              f"┣[ 👤 `Name       : {DEFAULTUSER}\n `"
+              f"┣[ 👤 `Name       : {DEFAULTUSER} `\n"
               f"┣[ 🐍 `Python     : {python_version()} `\n"
               f"┣[ ⚙️ `Telethon   : {version.__version__} `\n"
-              f"┣[ 👁‍🗨 `Username   : @{user.username}\n"
+              f"┣[ 👁‍🗨 `Username   : @{user.username} `\n"
               f"┣[ 🎮 `Running on : {UPSTREAM_REPO_BRANCH} `\n"
               f"┗━━━━━━━━━━━━━━━━━━━━━━━━\n")
     if ALIVE_LOGO:
